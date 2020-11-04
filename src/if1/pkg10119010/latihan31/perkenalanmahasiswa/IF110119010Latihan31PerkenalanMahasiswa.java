@@ -21,13 +21,26 @@ public class IF110119010Latihan31PerkenalanMahasiswa {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Mahasiswa obj = new Mahasiswa();
-        obj.nim = "10119010";
-        obj.nama = "Maulana Imam Malik";
-        System.out.println("Hello Everyone");
-        System.out.println("My NIM is " + obj.nim);
-        System.out.println("My Name is " + obj.nama);
-        obj.perkenalkanDiri();
+        Mahasiswa mahasiswa1 = new Mahasiswa();
+        mahasiswa1.nim = "10119010";
+        mahasiswa1.nama = "Maulana Imam Malik";
+        
+        Mahasiswa mahasiswa2 = new Mahasiswa();
+        mahasiswa2.nim = "10110269";
+        mahasiswa2.nama = "Rizki Adam Kurniawan";
+        
+        Mahasiswa mahasiswa3 = new Mahasiswa();
+        mahasiswa3.nim = "10110270";
+        mahasiswa3.nama = "Indra Tiola";
+        
+        Mahasiswa mahasiswa4 = new Mahasiswa();
+        mahasiswa4.nim = "101190269";
+        mahasiswa4.nama = "Muhammad Nur Awaludin";
+        
+        mahasiswa1.perkenalanDiri();
+        mahasiswa2.perkenalanDiri();
+        mahasiswa3.perkenalanDiri();
+        mahasiswa4.perkenalanDiri();
     }
     
 }

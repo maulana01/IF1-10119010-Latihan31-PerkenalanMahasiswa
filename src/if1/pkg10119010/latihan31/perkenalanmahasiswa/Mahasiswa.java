@@ -13,7 +13,9 @@ public class Mahasiswa {
     public String nim;
     public String nama;
     
-    public static void perkenalkanDiri() {
-        
+    public void perkenalanDiri() {
+        System.out.println("Hello Everyone");
+        System.out.println("My NIM is ".concat(nim));
+        System.out.println("My Name is ".concat(nama).concat("\n"));
     }
 }
