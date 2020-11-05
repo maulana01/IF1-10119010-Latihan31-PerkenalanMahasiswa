@@ -7,7 +7,12 @@ package if1.pkg10119010.latihan31.perkenalanmahasiswa;
 
 /**
  *
- * @author MIM
+ * @author Maulana Imam Malik
+ * NAMA     : Maulana Imam Malik
+ * KELAS    : IF1
+ * NIM      : 10119010
+ * Deskripsi Program : Program ini berisi program untuk menampilkan identtitas
+ *                     Mahasiswa baru dengan konsep OOP 
  */
 public class Mahasiswa {
     public String nim;

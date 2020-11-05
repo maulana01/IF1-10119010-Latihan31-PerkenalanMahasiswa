@@ -12,7 +12,7 @@ package if1.pkg10119010.latihan31.perkenalanmahasiswa;
  * KELAS    : IF1
  * NIM      : 10119010
  * Deskripsi Program : Program ini berisi program untuk menampilkan identtitas
- *                     Mahasiswa baru
+ *                     Mahasiswa baru dengan konsep OOP 
  */
 public class IF110119010Latihan31PerkenalanMahasiswa {
 
